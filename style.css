@@ -1,4 +1,22 @@
-div{
+.parents{
   background-color: bisque;
   padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.parents div{
+  margin-bottom: 10px;
+  background-color:blue ;
+  height: 200px;
+  width: 250px;
+  padding: 10px 12px;
+  border: 2px black solid;
+  border-radius: 3px;
+  box-shadow: brown;
+  border-bottom: 20px black solid;
+  /* display: inline-block; */
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center; */
 }
